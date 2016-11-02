@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myQuiz">
+<head>
+	<meta charset="UTF-8">
+	<title>Art-quiz</title>
+	<meta name="author" content="Egor Pavlov, no.more.vikings@gmail.com">
+	<meta name="viewport" content="width=device-width,maximum-scale=1,initial-scale=1">
+
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Sanchez" rel="stylesheet">
+
+	<script type="application/javascript">
+		var QueryString = function () {
+			// This function is anonymous, is executed immediately and
+			// the return value is assigned to QueryString!
+			var query_string = {};
+			var query = window.location.search.substring(1);
+			var vars = query.split("&");
+			for (var i = 0; i < vars.length; i++) {
+				var pair = vars[i].split("=");
+				// If first entry with this name
+				if (typeof query_string[pair[0]] === "undefined") {
+					query_string[pair[0]] = decodeURIComponent(pair[1]);
+					// If second entry with this name
+				} else if (typeof query_string[pair[0]] === "string") {
+					var arr = [query_string[pair[0]], decodeURIComponent(pair[1])];
+					query_string[pair[0]] = arr;
+					// If third or later entry with this name
+				} else {
+					query_string[pair[0]].push(decodeURIComponent(pair[1]));
+				}
+			}
+			return query_string;
+		}();
+
+		window.source = QueryString.source + '.json';
+	</script>
+
+	<script src="js/angular.min.js"></script>
+	<script src="js/app.js"></script>
+</head>
+<body>
+
+<div id="myQuiz" ng-controller="QuizController">
+
+	<div class="intro" ng-show="currentStep == 'intro'">
+		<div class="wrapper">
+			<h2 class="pageHeader"><span>Quizz</span></h2>
+			<h2 class="intro__subheader">{{totalQuestions}} questions</h2>
+			<h1 class="intro__header">{{quizName}}</h1>
+			<div class="intro__start">
+				<img src="img/Magritte(changed).svg" alt="">
+				<button class="btn" ng-click="startQuiz()">Start</button>
+				<img src="img/Edvard_Munch(changed).svg" alt="">
+			</div>
+		</div>
+	</div>
+
+
+	<div class="progress" ng-show="currentStep == 'progress'">
+		<div class="wrapper">
+			<h1 class="pageHeader">
+				<span>{{activeQuestionIndex + 1}} / {{totalQuestions}}</span> <br>
+				{{quizName}}
+			</h1>
+			<article class="progress__wrapper">
+				<section class="progress__answer" ng-repeat="answer in activeQuestion.answers">
+					<button ng-click="selectAnswer(answer.id)"
+					        ng-class="{correct: answerIsCorrect(answer.id), incorrect: answerIsIncorrect(answer.id)}">
+						<img ng-src="{{answer.img}}" alt="">
+					</button>
+					<div class="progress__answer__description">
+						{{answer.license}}
+						<p ng-show="result != null">{{answer.description}}</p>
+					</div>
+				</section>
+			</article>
+
+			<h2 class="progress__question">{{activeQuestion.question}}</h2>
+			<div class="progress__result" ng-show="result == true">
+					<img src="img\Checkmark.svg" alt="">
+					{{activeQuestion.textCorrect}}
+			</div>
+			<div class="progress__result" ng-show="result == false">
+					<img src="img/Delete.svg" alt="">
+					{{activeQuestion.textIncorrect}}
+			</div>
+
+
+			<button class="btn" ng-hide="result == null" ng-click="nextQuestion()">Next</button>
+		</div>
+	</div>
+
+
+	<div class="resume" ng-show="currentStep == 'resume'">
+		<div class="wrapper">
+			<h1 class="pageHeader">{{quizName}}</h1>
+			<div class="resume__wrapper">
+				<img ng-src="{{resultCard.img}}" alt="">
+				<div class = "resume__wrapper__text" style="color: {{resultCard.color}}">
+					<h2>
+						{{score}}/{{totalQuestions}}
+					</h2>
+					<span>Your level of intuition: </span>
+					<h3>{{resultCard.title}} </h3>
+					<p>{{resultCard.text}}</p>
+				</div>
+			</div>
+			<h3 class="resume__header">Share</h3>
+		</div>
+	</div>
+
+</div>
+
+</body>
+</html>

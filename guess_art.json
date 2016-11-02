@@ -1,0 +1,371 @@
+{
+  "title": "Guess Art",
+  "numberOfQuestions": "10",
+  "quiz": [
+    {
+      "question": "Which girl is younger?",
+      "answers": [
+        {
+          "id": "0",
+          "img": "http://opisanie-kartin.com/uploads18/image110.jpg",
+          "license": "Wikimedia projects",
+          "description": "Portrait of Helene Fourment in a Fur Wrap (1638), Peter Paul Rubens"
+        },
+        {
+          "id": "1",
+          "img": "https://upload.wikimedia.org/wikipedia/commons/1/10/Akhmatova_by_Altman.jpeg",
+          "license": "Wikimedia projects",
+          "description": "Portrait of Anna Akhmatova (1914), Nathan Altman."
+        }
+      ],
+      "correct": "0",
+      "textCorrect": "Correct! This lady is a bit younger than the other. She is the beloved wife of a very rich man who is passionately in love with her figure. 17th century Bodypositive!",
+      "textIncorrect": "In fact this lady is but one year older than the other. She is much skinnier, though. Maybe a Soviet poetess was fed less than a Flemish aristocrat’s wife. However, the world is so beautiful because we all are so different!"
+    },
+    {
+      "question": "Which man is older?",
+      "answers": [
+        {
+          "id": "0",
+          "img": "https://s-media-cache-ak0.pinimg.com/564x/16/54/36/1654367bafc2aefb28edcd257ea0b8b6.jpg",
+          "license": "Wikimedia projects",
+          "description": "Self-Portrait (1951), Henri Matisse Etching"
+        },
+        {
+          "id": "1",
+          "img": "https://uploads1.wikiart.org/images/rembrandt/self-portrait-in-at-the-age-of-63-1669.jpg!Large.jpg",
+          "license": "Wikimedia projects",
+          "description": "Self-portrait at the Age of 63 (1669), Rembrandt"
+        }
+      ],
+      "correct": "0",
+      "textCorrect": "Seems like time has more mercy nowadays than it had in the 17th century. In this picture Henri Matisse is 19 years older than Rembrandt, making him 82.",
+      "textIncorrect": "He is only 63! In some countries he would not yet have reached retirement age. The man in the other picture is 82."
+    },
+    {
+      "question": "These are pictures by (and of) the same artist. Which of these was drawn earlier?",
+      "answers": [
+        {
+          "id": "0",
+          "img": "http://static.boredpanda.com/blog/wp-content/uploads/2016/02/pablo-picasso-self-portraits-chronology-2.jpg",
+          "license": "Wikimedia projects",
+          "description": "Self-portrait (1907), Picasso"
+        },
+        {
+          "id": "1",
+          "img": "http://static.boredpanda.com/blog/wp-content/uploads/2016/02/pablo-picasso-self-portraits-chronology-22.jpg",
+          "license": "Wikimedia projects",
+          "description": "Self-portrait (1938), Picasso"
+        }
+      ],
+      "correct": "0",
+      "textCorrect": "Obviously! It is Pablo Picasso at the age of 25. In the other picture he is 56.",
+      "textIncorrect": "Oh no! It is 56 year old Picasso! 31 years older than in the other picture."
+    },
+    {
+      "question": "These are pictures of two different artists. Which artist was older than the other at the time it was made?",
+      "answers": [
+        {
+          "id": "0",
+          "img": "https://s-media-cache-ak0.pinimg.com/564x/4a/1e/89/4a1e8998a75aada28102de2e67da0d92.jpg",
+          "license": "Wikimedia projects",
+          "description": "White mask (1949), Henri Matisse"
+        },
+        {
+          "id": "1",
+          "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Saint_Francis_of_Assisi_in_Ecstasy-Caravaggio_%28c.1595%29.jpg/800px-Saint_Francis_of_Assisi_in_Ecstasy-Caravaggio_%28c.1595%29.jpg",
+          "license": "Wikimedia projects",
+          "description": "Saint Francis of Assisi in Ecstasy (c.1595), Caravaggio"
+        }
+      ],
+      "correct": "0",
+      "textCorrect": "Matisse was 80 when he made this artwork. It would take more than two lifetimes for Caravaggio to reach that age.",
+      "textIncorrect": "Caravaggio started working early. This picture was made at the age of 24. The other picture was made by Matisse at the age of 80."
+    },
+    {
+      "question": "Which painting is bigger in real life?",
+      "answers": [
+        {
+          "id": "0",
+          "img": "https://d32dm0rphc51dk.cloudfront.net/O77_qvGCG1cGzYDfAGHdOQ/larger.jpg",
+          "license": "Wikimedia projects",
+          "description": "Blue Water Lilies, (1916-1919), Claude Monet"
+        },
+        {
+          "id": "1",
+          "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Vermeer-view-of-delft.jpg/800px-Vermeer-view-of-delft.jpg",
+          "license": "Wikimedia projects",
+          "description": "View of Delft (1660–1661), Johannes Vermeer"
+        }
+      ],
+      "correct": "0",
+      "textCorrect": "This artwork looks even more fascinating in real life because it is 4 square meters (13 sq ft)! It is impossible to feel this awe until you see it.",
+      "textIncorrect": "Surprisingly, this highly realistic and detailed picture is only about 1 square meter (3 sq ft). "
+    },
+    {
+      "question": "Which of these pictures is a self-portrait?",
+      "answers": [
+        {
+          "id": "0",
+          "img": "http://www.renemagritte.org/images/paintings/son-of-man.jpg",
+          "license": "Wikimedia projects",
+          "description": "The Son of Man (1946), Rene Magritte"
+        },
+        {
+          "id": "1",
+          "img": "http://uploads3.wikiart.org/images/rene-magritte/the-pleasure-principle-portrait-of-edward-james-1937(1).jpg",
+          "license": "Wikimedia projects",
+          "description": "The Pleasure Principle (Portrait of Edward James) (1937), Rene Magritte"
+        }
+      ],
+      "correct": "0",
+      "textCorrect": "Of course you are right! Who could doubt this is Magritte himself!",
+      "textIncorrect": "No way! The face bears no resemblance to Rene Magritte!"
+    },
+    {
+      "question": "These are the original picture and an edited copy. Which one is upside down?",
+      "answers": [
+        {
+          "id": "0",
+          "img": "img/370.jpg",
+          "license": "Wikimedia projects",
+          "description": "Color Study: Squares With Concentric Circles (1913), Wassily Kandinsky"
+        },
+        {
+          "id": "1",
+          "img": "https://www.ibiblio.org/wm/paint/auth/malevich/sup/malevich.black-red-square.jpg",
+          "license": "Wikimedia projects",
+          "description": "Black Square and Red Square (1915), Kasimir Malevich"
+        }
+      ],
+      "correct": "0",
+      "textCorrect": "Obvious! This one is upside down! ",
+      "textIncorrect": "Not this picture. One day, people will memorize Malevich’s artworks. Just not today."
+    },
+    {
+      "question": "Which one is about love?",
+      "answers": [
+        {
+          "id": "0",
+          "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Angelo_Bronzino_-_Venus%2C_Cupid%2C_Folly_and_Time_-_National_Gallery%2C_London.jpg/300px-Angelo_Bronzino_-_Venus%2C_Cupid%2C_Folly_and_Time_-_National_Gallery%2C_London.jpg",
+          "license": "Wikimedia projects",
+          "description": "An Allegory of Venus and Cupid (c. 1545), Angolo Bronzino"
+        },
+        {
+          "id": "1",
+          "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Gustav_Klimt_039.jpg/320px-Gustav_Klimt_039.jpg",
+          "license": "Wikimedia projects",
+          "description": "Judith and Holopherne (1901), Gustav Klimt"
+        }
+      ],
+      "correct": "0",
+      "textCorrect": "Right! This painting is about love, which has two sides from a philosophical perspective. It can be tender but can also cause trouble. Just look at the guy on the middle-left side. Supposedly he has syphilis. Oh, the deceits of love! ",
+      "textIncorrect": "In fact this is more about war. Judith seduced an enemy of her fellow’s to cut his head off while he was sleeping."
+    },
+    {
+      "question": "Which one of these drawings was created by a robot?",
+      "answers": [
+        {
+          "id": "0",
+          "img": "http://habrastorage.org/storage3/bdd/7ab/ce1/bdd7abce1a1bb1e6b8bd2ae1f23f40ea.jpg",
+          "license": "Wikimedia projects",
+          "description": "Robot's painting"
+        },
+        {
+          "id": "1",
+          "img": "http://4.bp.blogspot.com/-2ijf4xh_PGU/ThgNI9yyl5I/AAAAAAAAABk/bvms9ogeNfA/s1600/ARTSTOR_103_41822003831854.jpg",
+          "license": "Wikimedia projects",
+          "description": "Untitled (1954), Cy Twombly"
+        }
+      ],
+      "correct": "0",
+      "textCorrect": "Yep, a robot made this. You can see how it was built and how it draws here: https://habrahabr.ru/sandbox/70548/",
+      "textIncorrect": "Contemporary art is so contemporary. This is a picture by a talented human artist."
+    },
+    {
+      "question": "Which one is about morning?",
+      "answers": [
+        {
+          "id": "0",
+          "img": "http://nga.gov.au/exhibition/turnertomonet/Images/LRG/165114.jpg",
+          "license": "Wikimedia projects",
+          "description": "Morning haze (1888), Claude Monet"
+        },
+        {
+          "id": "1",
+          "img": "https://www.turnercontemporary.org/media/images/645/JMWTurner_the_evening_star_1200px-cropped.jpg",
+          "license": "Wikimedia projects",
+          "description": "The Evening Star (1830), William Turner"
+        }
+      ],
+      "correct": "0",
+      "textCorrect": "You are a genius! It is a morning scene indeed.",
+      "textIncorrect": "Not exactly. The author called it evening."
+    },
+    {
+      "question": "Which one of these is a self-portrait?",
+      "answers": [
+        {
+          "id": "0",
+          "img": "http://www.artyfactory.com/art_appreciation/portraits/frida_kahlo/self_portrait_1.jpg",
+          "license": "Wikimedia projects",
+          "description": "Self-Portrait in Red and Gold Dress (1941), Frida Kahlo "
+        },
+        {
+          "id": "1",
+          "img": "http://kamencvet.kz/wp-content/uploads/2014/11/dr.jpg",
+          "license": "Wikimedia projects",
+          "description": "Frida Kahlo by Diego Rivera"
+        }
+      ],
+      "correct": "0",
+      "textCorrect": "No doubt - it is in her unique style! That’s how Frida saw herself.",
+      "textIncorrect": "Beauty is in the eye of the beholder. It is a painting by Diego Rivera."
+    },
+    {
+      "question": "Which one of these was made by an animal?",
+      "answers": [
+        {
+          "id": "0",
+          "img": "http://i.dailymail.co.uk/i/pix/2012/02/02/article-0-11901272000005DC-208_308x460.jpg",
+          "license": "Wikimedia projects",
+          "description": "Abstract Painting (2010), Nong Bank"
+        },
+        {
+          "id": "1",
+          "img": "https://d32dm0rphc51dk.cloudfront.net/Ml-yhS2yVd6DNT9KsRWniQ/larger.jpg",
+          "license": "Wikimedia projects",
+          "description": "Untitled (2007), Cy Twombly"
+        }
+      ],
+      "correct": "0",
+      "textCorrect": "Correct! It was made by an elephant from Samutprakarn Zoo, Thailand.",
+      "textIncorrect": "No and no! It is the work of the famous contemporary artist Cy Twombly."
+    },
+    {
+      "question": "One of these is about pain and one is about pleasure. Who is having a good time?",
+      "answers": [
+        {
+          "id": "0",
+          "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Baigneuse_allong%C3%A9e_dEdgar_Degas_%28Mus%C3%A9e_dOrsay%29_%283210105105%29.jpg/800px-Baigneuse_allong%C3%A9e_dEdgar_Degas_%28Mus%C3%A9e_dOrsay%29_%283210105105%29.jpg",
+          "license": "Wikimedia projects",
+          "description": "Bather stretched out on the ground (1886-1888) Edgar Degas"
+        },
+        {
+          "id": "1",
+          "img": "http://img-fotki.yandex.ru/get/9324/107248342.47/0_ac014_bfdf5919_XL.jpg",
+          "license": "Wikimedia projects",
+          "description": "Dying slave, (1513-16) Michelangelo"
+        }
+      ],
+      "correct": "0",
+      "textCorrect": "That’s true, the girl is enjoying an after-bath nap.",
+      "textIncorrect": "A little mistake, he is dying."
+    },
+    {
+      "question": "Which of these paintings was created by a famous musician?",
+      "answers": [
+        {
+          "id": "0",
+          "img": "http://veryprivategallery.com/wp-content/uploads/2016/01/David-Bowie-paintings-Child-in-Berlin1977b.jpg",
+          "license": "Wikimedia projects",
+          "description": "Child in Berlin  (1977), Davis Bowie"
+        },
+        {
+          "id": "1",
+          "img": "https://www.kunsthalle-bremen.de/uploads/cms/files/ausstellungen-edvard_munch/munch_das_kind_und_der_tod_kb.jpg",
+          "license": "Wikimedia projects",
+          "description": "Edvard Munch: Death and the Child, 1899"
+        }
+      ],
+      "correct": "0",
+      "textCorrect": "It was made by the great musician David Bowie! Peace to you.",
+      "textIncorrect": "Not exactly. It is picture of Munch, not Bowie!However eccentric Edvard Munch was, he’d never played a guitar."
+    }
+  ],
+  "result": [
+    {
+      "percent": 0,
+      "title": "An Easel",
+      "text": "Hey, we all start somewhere. Years ago an easel was a tree. Don’t give up!",
+      "color": "#E4572E",
+      "img": "img/Edvard_Munch.svg"
+    },
+    {
+      "percent": 30,
+      "title": "Drunk Artist",
+      "text": "You can tell a Picasso by touch, but spill wine on it in the process.",
+      "color" : "#F18805",
+      "img": "img/Picasso.svg"
+    },
+    {
+      "percent": 50,
+      "title": "Art Thief",
+      "text": "You are talented enough to spot the one good picture in the room. You might as well steal them all, just in case you’re wrong.",
+      "color" : "#FFB400",
+      "img": "img/Magritte.svg"
+    },
+    {
+      "percent": 70,
+      "title": "Unemployed Museum Curator",
+      "text": "You were good at your job. It’s just one day you hung your boss’s drawing upside down.",
+      "color" : "#95C623",
+      "img": "img/Modern_Art.svg"
+    },
+    {
+      "percent": 99,
+      "title": "Art Teacher",
+      "text": "Or maybe you work at Icons8.",
+      "color" : "#32C24D",
+      "img": "img/Da_Vinci.svg"
+    },
+    {
+      "percent": 100,
+      "title": "Oracle",
+      "text": "Either this is your 14th attempt or you are reading this message with your eyes closed. Taking a shower. 20 years ago.",
+      "color" : "#3A5683",
+      "img": "img/Floating_Guru.svg"
+    }
+  ],
+    "metaTags": {
+    "title": "",
+    "keywords": "quiz, art, question, art-quiz",
+    "description": "How well do you know visual arts? You can check it right here!",
+    "url": "",
+    "shareImages": {
+      "default": "img/Animals_Cats__001795_1.jpg",
+      "scores": [
+        "img/quiz_data_0.png",
+        "img/quiz_data_1.png",
+        "img/quiz_data_2.png",
+        "img/cat2.jpg",
+        "img/cat2.jpg",
+        "img/cat2.jpg",
+        "img/cat2.jpg",
+        "img/cat3.jpg",
+        "img/cat3.jpg",
+        "img/cat3.jpg",
+        "img/cat3.jpg"
+      ]
+    },
+    "og": {
+      "title": "",
+      "image": {
+        "url": "",
+        "type": "",
+        "width": "",
+        "height": ""
+      },
+      "url": "",
+      "siteName": "",
+      "description": "",
+      "type": ""
+    },
+    "twitter": {
+      "card": "",
+      "image": "",
+      "site": "",
+      "creator": ""
+    }
+  }
+}
