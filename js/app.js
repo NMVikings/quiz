@@ -101,7 +101,5 @@
 			$scope.currentStep = "resume";
 			createResultCard($scope.score, $scope.totalQuestions);
 		};
-
-
 	}]);
 })();
